@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/backgroundimage.png)
+}
+
+#crystal1 {
+    background-image: url("../images/blueGem.png");
+    width: 75px;
+    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#crystal2 {
+    background-image: url("../images/orangeGem.png");
+    width: 75px;
+    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#crystal3 {
+    background-image: url("../images/pinkGem.png");
+    width: 75px;
+    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#crystal4 {
+    background-image: url("../images/yellowGem.png");
+    width: 75px;
+    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.crystals {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.crystalz {
+    background-color: #cb6f32;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Inika', serif;
+    font-weight: bold;
+    margin: 2%;
+    margin-left:-1%;
+    padding: 25px;
+    width: 30%;
+}
+
+#points {
+    background-color:green;
+    font-family: 'Inika', serif;
+    font-size: 50px;
+    width: 33%;
+}
+
+.row--instructions {
+    background-color: #fbe6cf;
+    color: #80a474;
+    font-family: 'Inika', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 5%;
+    width: 55%
+}
+
+#scoreMark {
+    background-color: #1ea397;
+    color: #fff;
+    font-family: 'Inika', serif;
+    font-size: 2.5em;
+}
+
+.totalPoints {
+    background-color: #1ea397;
+    color: #fff;
+    font-family: 'Inika', serif;
+    width: 200px;
+    height: 500px;
+}
+
+.totalScore {
+    background-color: #1ea397;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inika', serif;
+    padding: 8px;
+    width: 500px;
+}
+
+.winLose {
+    background-color: #3bfdfd;
+    font-family: 'Inika', serif;
+    padding-top: 0;
+    text-align: center;
+    width: 100px;
+    height: 150px;
+    margin-left: 400px;
+}
