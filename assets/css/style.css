@@ -3,7 +3,11 @@
 }
 
 body {
-    background-image: url(../images/backgroundimage.png)
+    background-image: url(../images/wheat.png);
+}
+
+p {
+    text-align: center;
 }
 
 #crystal1 {
@@ -39,7 +43,7 @@ body {
 }
 
 .crystals {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     justify-content: flex-start;
     width: 20px;
@@ -55,8 +59,8 @@ body {
     display: inline-block;
     font-family: 'Inika', serif;
     font-weight: bold;
-    margin: 2%;
-    margin-left:-1%;
+    margin: 5px;
+    margin-left:5px;
     padding: 25px;
     width: 30%;
 }
@@ -65,33 +69,39 @@ body {
     background-color:green;
     font-family: 'Inika', serif;
     font-size: 50px;
-    width: 33%;
+    width: 20%;
+    margin-top: 15px;
+    height: 150px;
 }
 
-.row--instructions {
+.info--instructions {
     background-color: #fbe6cf;
     color: #80a474;
     font-family: 'Inika', serif;
-    font-size: 1.2em;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 5%;
-    width: 55%
+    width: 40%;
+    height: 700px;
 }
 
 #scoreMark {
     background-color: #1ea397;
     color: #fff;
     font-family: 'Inika', serif;
-    font-size: 2.5em;
-}
+    font-size: 50px;
+    width: 25%;
 
+}
+/* 
 .totalPoints {
     background-color: #1ea397;
     color: #fff;
     font-family: 'Inika', serif;
     width: 200px;
     height: 500px;
-}
+    padding-top: 0px;
+} */
 
 .totalScore {
     background-color: #1ea397;
@@ -99,7 +109,9 @@ body {
     font-size: 20px;
     font-family: 'Inika', serif;
     padding: 8px;
-    width: 500px;
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .winLose {
@@ -109,5 +121,6 @@ body {
     text-align: center;
     width: 100px;
     height: 150px;
-    margin-left: 400px;
+    margin-left: 290px;
+    margin-top: -165px;
 }

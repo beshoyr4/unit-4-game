@@ -12,14 +12,14 @@ $(document).ready(function(){
     var totalWins = 0;
     var totalLosses = 0;
 
-    $("#number-to-guess").text(targetNumber);
+    $("#numberToGuess").text(targetNumber);
     $("#totalWins").text(totalWins);
     $("#totalLosses").text(totalLosses);
 
     function reset() {
         targetNumber = Math.floor((Math.random() * 100) +1);
         console.log(targetNumber);
-        $("#number-to-guess").text(targetNumber);
+        $("#numberToGuess").text(targetNumber);
         num1 = Math.floor(Math.random() *12 + 1);
         num2 = Math.floor(Math.random() *12 + 1);
         num3 = Math.floor(Math.random() *12 + 1);
